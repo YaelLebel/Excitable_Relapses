@@ -49,8 +49,6 @@ def create_phase_diagram_figure (phases,colors,G_min,G_max,B_min,B_max,phases_na
     axs.set_ylim(G_min,G_max)
     axs.set_xlabel('B',fontsize = 20)
     axs.set_ylabel('G',fontsize = 20)
-    axs.grid(False)
-    #axs.axis('square')
     axs.legend(loc = 'upper right')
     axs.tick_params(axis='both', which='major', labelsize=12)
     axs.tick_params(axis='both', which='minor', labelsize=10)
